@@ -19,3 +19,10 @@ def agregar():
         lista_tareas.append(nueva_tarea)
     return redirect('/')
 
+#ruta para eliminar
+@app.route ('/delete/<int:id>')
+#vista
+def delete(id):
+    lista_tareas.pop(id)
+    return redirect('/')
+
