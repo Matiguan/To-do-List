@@ -45,3 +45,17 @@ form{
     margin:20px auto;
 }
 
+.task{
+    width: 450px;
+    background-color: darkred;
+}
+
+table,tr,td{
+    margin: 5px auto;
+    color: white;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
